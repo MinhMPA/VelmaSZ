@@ -1,0 +1,29 @@
+# Ignore swap files
+*~
+.DS_Store
+
+**.pyc
+**.[oa]
+**.out
+
+**.bbl
+**.blg
+**.aux
+**.texpadtmp
+**.fls
+**.fdb_latexmk
+**.toc
+**.log
+**.gz
+
+# Ignore dask auxiliary files
+notebook/dask-worker-space
+
+# Ignore pdf notes
+**/note/*.pdf
+
+# Ignore stdout and stderr files
+std/
+data/
+bash_script/
+plot_script/
